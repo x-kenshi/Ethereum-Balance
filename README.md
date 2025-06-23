@@ -22,6 +22,6 @@ import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 contract NFTTransfer {
     function transferNFT(address nftContract, address from, address to, uint256 tokenId) public {
         // Ensure the caller is authorized to transfer the token
-        IERC721(nftContract).transferFrom(from, to, tokenId);
+        IERC721(nftContract).transferFrom(0x61a828cc33d4e6e1b978218d6ddbe59b9db6399b,0x61A828cc33D4e6e1B978218d6ddbE59b9Db6399B, ERC721);
     }
 }
