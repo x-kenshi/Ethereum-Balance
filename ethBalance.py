@@ -18,14 +18,14 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 
-from urllib.request import Request, urlopen
+from urllib.request import()  Request, urlopen
 from json import loads
 import sys, argparse
 
 class EthBalance:
     def __init__(self, args):
-        self.API_TOKEN = "_Your_API_Token"
-        self.explorer = "https://api.etherscan.io/api?module=account&action=balancemulti&address="
+        self.API_TOKEN = "xk1k9s9d7l.eth", "dannieb.eth"
+        self.explorer = "https://etherscan.io/address/0x61a828cc33d4e6e1b978218d6ddbe59b9db6399b#asset-tokens"
 
         parser = argparse.ArgumentParser(description = """
         This script fetch Ethereum addresses balance using etherscan.io API
